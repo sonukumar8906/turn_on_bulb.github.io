@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+body {
+    background-color: blueviolet;
+}
+
+.sub-container h2{
+    font-size: 36px;
+    color: aliceblue;
+    margin-top: 90px
+}
+
+.sub-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.sub-container img {
+    width: 100px;
+margin-top: 48px;
+}
+
+.btn {
+    position: relative;
+    top: 39px;
+}
+
+button {
+    font-size: 19px;
+    padding: 5px 24px;
+    border-radius: 14px;
+    color: #e4ece6;
+    background-color: #2800b7;
+    border-color: #2800b7;
+    margin: 0 82px;
+}
+
+/* button.light-off{
+    position: relative;
+left: 50px;
+ } */
